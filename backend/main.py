@@ -51,8 +51,8 @@ app = FastAPI(
 # CORS — allow the React Native app (Expo dev server + production builds)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # tighten this in production to your app's domain
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
