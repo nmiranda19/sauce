@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Sauce",
+    "slug": "sauce-fantasy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F7F6"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sauce.fantasy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F5F7F6"
+      },
+      "package": "com.sauce.fantasy"
+    }
+  }
+}
